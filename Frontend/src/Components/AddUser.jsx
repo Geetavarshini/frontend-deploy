@@ -21,7 +21,7 @@ function AddUser() {
 
     try {
       const res = await fetch(
-        "http://localhost:3000/user-api/users",
+        "https://usermanagementapp-v8oc.onrender.com/user-api/users",
         {
           method: "POST",
           headers: {

@@ -16,7 +16,7 @@ function User() {
 
       try {
         const res = await fetch(
-          `http://localhost:8080/user-api/users/${state.user._id}`,
+          `https://usermanagementapp-v8oc.onrender.com/user-api/users/${state.user._id}`,
           {
             method: "GET"
           }
