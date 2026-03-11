@@ -28,7 +28,7 @@ async function connectDb() {
         await connect(process.env.DB_URL);
         console.log("Connected To database");
         
-        const port = process.env.PORT || 3000;
+        const port = process.env.PORT || 10000;
         app.listen(port, () => console.log(`Server started on port ${port}`));
     } catch (err) {
         console.error("Database Connection Error Detail:", err.message); // This will tell you exactly WHY it failed
