@@ -1,6 +1,6 @@
 import React from 'react'
 import { createBrowserRouter,RouterProvider } from 'react-router'
-import RootLayout from './components/RootLayout'
+import RootLayout from './Components/RootLayout'
 import Home from './Components/Home'
 import AddUser from './Components/AddUser'
 import UserList from './Components/UserList'
