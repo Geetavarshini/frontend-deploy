@@ -1,0 +1,32 @@
+###create a user
+POST http://localhost:3000/user-api/users
+Content-Type: application/json
+
+{
+    "name":"Geetavar",
+    "email":"geeta@gmail.com",
+    "dateOfBirth":"2005-05-29",
+    "mobileNumber":9390030496
+}
+
+
+###read all users
+GET http://localhost:3000/user-api/users
+
+###read a user by id
+GET http://localhost:3000/user-api/users/69b1a1b337553c849f128926
+
+
+#### delete a user by id
+DELETE  http://localhost:3000/user-api/users/69b1a1b337553c849f128926
+
+### activate a user
+PATCH http://localhost:3000/user-api/users/69b1a1b337553c849f128926
+
+###update user details 
+PUT http://localhost:3000/user-api/users/69b1a1b337553c849f128926
+Content-Type: application/json
+
+{
+    "name":"Geetavarshini"
+}
