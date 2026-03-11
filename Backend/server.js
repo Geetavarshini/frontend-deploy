@@ -10,7 +10,7 @@ console.log("DB URL Check:", process.env.DB_URL);
 const app=exp()
 
 //add cors
-app.use(cors({origin:['http://localhost:5173'],credentials:true}))
+app.use(cors({origin:['http://localhost:5173',"https://use-management-app-nine.vercel.app/add-user"],credentials:true}))
 
 //Add body Parser middleware
 app.use(exp.json())
